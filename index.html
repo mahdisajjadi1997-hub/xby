@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>فروشگاه من</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      text-align: right;
+      direction: rtl;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .product-list {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      margin-top: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛍️ فروشگاه من</h1>
+    <p>خوش آمدید به فروشگاه آنلاین ما</p>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2>محصولات</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="https://picsum.photos/id/10/200/150" alt="محصول ۱" />
+          <h3>لبنیات تازه</h3>
+          <p>قیمت: ۵۰,۰۰۰ تومان</p>
+          <button>افزودن به سبد</button>
+        </div>
+
+        <div class="product">
+          <img src="https://picsum.photos/id/20/200/150" alt="محصول ۲" />
+          <h3>نان سبوس‌دار</h3>
+          <p>قیمت: ۲۰,۰۰۰ تومان</p>
+          <button>افزودن به سبد</button>
+        </div>
+
+        <div class="product">
+          <img src="https://picsum.photos/id/30/200/150" alt="محصول ۳" />
+          <h3>میوه تازه</h3>
+          <p>قیمت: ۳۵,۰۰۰ تومان</p>
+          <button>افزودن به سبد</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
